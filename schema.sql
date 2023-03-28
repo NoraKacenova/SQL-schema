@@ -1,4 +1,5 @@
 CREATE TABLE products (
+  id INT PRIMARY KEY,
   product_name VARCHAR(50),
   price DECIMAL(10, 2),
   vat_percentage DECIMAL(3, 2),
